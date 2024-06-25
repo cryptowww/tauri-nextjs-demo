@@ -6,15 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
     "tauri": "tauri",
     "lint": "next lint"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.5.6",
+    "antd": "^5.18.3",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "typescript-language-server": "^4.3.3"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.5.14",
